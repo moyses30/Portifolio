@@ -1,0 +1,125 @@
+@charset "UTF-8"
+
+:root{
+    --cor01:#2B4AE5;
+    --cor02:#253FC3;
+    --cor03:#2D4DED;
+    --cor04:#656FA3;
+    --cor05:#18297F;
+    --cor06:#121E5D;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+     background:#253FC3 ;
+    color: #fff;
+    padding: 1rem 0;
+    box-shadow:3px 3px 8px black;
+    margin: 5px;
+    border-radius: 41px 5px 35px;
+    
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    
+}
+ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.267);
+    transition: .5s;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+
+section {
+    padding: 2rem 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.projeto {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
