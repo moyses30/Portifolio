@@ -24,7 +24,7 @@ body {
 }
 
 header {
-     background:#253FC3 ;
+    background:#253FC3 ;
     color: #fff;
     padding: 1rem 0;
     box-shadow:3px 3px 8px black;
@@ -40,6 +40,9 @@ header .container {
     justify-content: space-between;
     align-items: center;
     
+}
+
+
 }
 
 header h1 {
@@ -76,7 +79,7 @@ section {
 }
 
 .container {
-    width: 80%;
+    width: 74%;;
     margin: 0 auto;
 }
 
