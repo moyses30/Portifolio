@@ -87,6 +87,7 @@ section {
 
 .container nav {
     width: 50%;
+    margin: -20%; /* modifica a margem direita */
 }
 
 h2 {
