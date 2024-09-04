@@ -67,6 +67,7 @@ nav ul li a {
    
     color: white;
     text-decoration: none;
+    margin: 2px;
 
     
 }
@@ -94,7 +95,7 @@ section  {
 .container nav {
     width: 70%;
     padding: 1%;
-     margin: auto; /* modifica a margem direita */
+    margin: auto; /* modifica a margem direita */
 }
 
 h2 {
