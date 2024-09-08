@@ -14,7 +14,7 @@
     padding: 0px;
     list-style: none;
     text-decoration: none;
-    font-family: "Protest Guerrilla",sans-serif;
+    
       
 }
 
@@ -39,7 +39,7 @@ header {
 
 header .container {
     width: 77%;
-    margin:  -34px auto; 
+    margin:  auto; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,15 +47,17 @@ header .container {
 }
 
 
-}
+
 
 header h1 {
     margin: 0;
+    font-family: "Protest Guerrilla",sans-serif;
 }
 
 nav{
     max-width: 1280px;
     margin: 0 auto;
+    font-family: "Protest Guerrilla",sans-serif;
 }
 
 
@@ -64,6 +66,7 @@ nav ul li {
     display: inline-block;
     margin: 0 15px;
     padding: 5px;
+    
 }
 /* cabelhaço  dentro do a*/
 nav ul li a {
