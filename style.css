@@ -37,8 +37,8 @@ header {
     
 }
 
-header .container {
-    width: 77%;
+header  {
+    width: 100%;
     margin:  auto; 
     display: flex;
     justify-content: space-between;
