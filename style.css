@@ -15,7 +15,7 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
-    
+    color: #121E5D;
     
       
 }
@@ -25,17 +25,22 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #253fc3de;
+    background-color: white;
     
    
 }
 .interface{
     max-width: 1280px;
     margin: 0 auto;
+    box-shadow:0px 7px 7px black ;
+    border-radius: 0px 20px 0px ;background-color: #253FC3;
 }
 
 header{
     padding: 40px 4%;
+    border-radius: 50px
+    
+
 }
 header >.interface{
     display: flex;
@@ -53,12 +58,20 @@ header h1 {
 }
 
 header a{
-    color: white;
+    color: rgb(204, 195, 195);
+    text-decoration: none;
+    display: inline-block;
 
+}
+header a:hover{
+    color: #18297F;
+    transform: scale(1.05);
+    transition: 2.s;
 }
 
 header nav ul {
     list-style: none;
+    
 }
 
 nav{
@@ -72,25 +85,28 @@ header nav ul li {
     display: inline-block;
     padding:0 40px ;
 }
+header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px; /* peso da fonte */
+    font-weight: 600;
+    background-color: #253FC3;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;/* cursos vira um dedo */
+}
+
+header .btn-contato button :hover{
+    box-shadow: 0px 0px 8px black;
+}
  
 
 
 
-/* cabelhaço  dentro do a*/
 
 
+
     
-}
-ul li a:hover {
-    color:  #2B4AE5;
-    transform: scale(1.05); /* para dar zoom */
-    
-    font-weight: bold;
-    border-radius: 5px;
-    padding: 10px;
-    
-    
-}
+
 
 
 section  {
