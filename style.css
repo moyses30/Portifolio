@@ -175,7 +175,7 @@ footer {
 /* tema claro e escuro */
 
 body.dark {
-    background:black;
+    background:rgba(0, 0, 0, 0.493);
     
 }
 
