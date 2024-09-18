@@ -39,8 +39,6 @@ body {
     padding: 10px 2%;
     box-shadow:0px 7px 7px black ;
     border-radius: 10px 10px 10px ;
-
-    
     background-color: #253fc3e5;
 }
 
@@ -60,11 +58,11 @@ header >.interface{
 }
 
 
-
+/* nome parte de cima do cabelhaço */
 header h1 {
     margin: 0 auto;
     padding-left: 10px;
-    font-family: "Protest Guerrilla",sans-serif;
+    
   
 }
 
@@ -76,19 +74,20 @@ header a{
 }
 header a:hover{
     color: #18297F;
-    transform: scale(1.05);
+    transform: scale(1.5);
     transition: 2.s;
 }
 
 header nav ul {
     list-style: none;
+    font-size: larger
     
 }
 
 nav{
     max-width: 1280px;
     margin: 0 auto;
-    font-family: "Protest Guerrilla",sans-serif;
+    
     
 }
 
@@ -96,26 +95,37 @@ header nav ul li {
     display: inline-block;
     padding:0 40px ;
 }
+/* botão contato*/
 header .btn-contato button{
     padding: 5px 20px;
 
     font-size: 18px; /* peso da fonte */
     font-weight: 300;
     margin-right: 77px;
-    background-color: white;
+    background-color: rgba(14, 14, 177, 0.664);
     border: 0;
     border-radius: 30px;
     cursor: pointer;/* cursos vira um dedo */
 }
 
 header .btn-contato button :hover{
-    box-shadow: 0px 0px 8px black;
+    box-shadow: 0px 0px 8px blue;
 }
+/* botão contato* ----FIM */
  
 section  {
     padding: 2rem 0;
     color: white;
 }
+/*div.foto{
+    width: 10%;
+    height: 20%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50%;
+    
+}*/
 
 .container {
     width: 60%;
@@ -175,7 +185,8 @@ footer {
 /* tema claro e escuro */
 
 body.dark {
-    background:rgba(0, 0, 0, 0.493);
+    background:rgba(0, 0, 0, 0.705);
+    color: white;
     
 }
 
