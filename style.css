@@ -20,6 +20,18 @@
       
 }
 
+section div img {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    
+}
+section img{
+    width: 10%;
+    
+}
+
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -240,3 +252,4 @@ body.dark {
 .fa-sun{
     color: #333;
 }
+
