@@ -19,17 +19,22 @@
     
       
 }
-
-section div img {
-    display: flex;
+ /*modificaçoes para foto */ 
+ #foto{
+    display: block;
     align-items: center;
-    justify-content: left;
+    justify-content: right;
+    border-radius: 20%;
+    background-color: #121E5D;
+    width: 30%;
+    height: 30%;
+    border-radius: 8px 8px;
+    margin-left: 85%;
+    
+
     
 }
-section img{
-    width: 10%;
-    
-}
+
 
 
 body {
