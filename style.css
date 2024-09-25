@@ -1,5 +1,9 @@
 @charset "UTF-8"
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
 :root{
     --cor01:#2B4AE5;
     --cor02:#253FC3;
@@ -7,6 +11,9 @@
     --cor04:#656FA3;
     --cor05:#18297F;
     --cor06:#121E5D;
+
+    --fonte1:'Oswald' , sans-serif ;
+    --fonte2:'Titillium' , sans-serif ;
 }
 
 *{
@@ -24,7 +31,7 @@
     display: block;
     align-items: center;
     justify-content: right;
-    border-radius: 20%;
+    border-radius: 50%;
     background-color: #121E5D;
     width: 30%;
     height: 30%;
@@ -47,6 +54,13 @@ body {
     transition: background 0.2s linear;
     
    
+}
+
+main {
+    border-radius: 5px 5px 5px;
+    background-color: rgb(148, 144, 144)
+    margin: 5%;
+    
 }
 
 
@@ -75,16 +89,22 @@ header >.interface{
 }
 
 
+
 /* nome parte de cima do cabelhaço */
 header h1 {
     margin: 0 auto;
     padding-left: 10px;
+    font: var(--fonte2);
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2.5em;
+    font-style: normal;
+    font-weight: bold;
     
   
 }
 
 header a{
-    color: white;
+    color: rgb(22, 20, 20);
     text-decoration: none;
     display: inline-block;
 
@@ -97,7 +117,9 @@ header a:hover{
 
 header nav ul {
     list-style: none;
-    font-size: larger
+    font-size: medium;
+    font-weight: bold;
+    
     
 }
 
@@ -114,11 +136,11 @@ header nav ul li {
 }
 /* botão contato*/
 header .btn-contato button{
-    padding: 5px 20px;
+    padding: 5px 36px;
 
     font-size: 18px; /* peso da fonte */
     font-weight: 300;
-    margin-right: 77px;
+    margin-right: 70px;
     background-color: rgba(14, 14, 177, 0.664);
     border: 0;
     border-radius: 30px;
@@ -126,7 +148,7 @@ header .btn-contato button{
 }
 
 header .btn-contato button :hover{
-    box-shadow: 0px 0px 8px blue;
+    box-shadow: 0px 0px 5px blue;
 }
 /* botão contato* ----FIM */
  
@@ -216,7 +238,7 @@ body.dark {
 
 .label{
     background-color: #111;
-    border-radius: 50px;
+    border-radius: 40px;
     cursor: pointer;
     display: flex;
     align-items: center;
