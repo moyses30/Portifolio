@@ -71,10 +71,11 @@ body {
 
 header{
     
-    padding: 10px   2%;
+    padding: 20px   2%;
     margin: auto ;
     background-color: #253fc3e5;
-    box-shadow: 5px black;
+    box-shadow: 30px black;
+    border-radius: 30px 5px 5px black;
     
 
 }
@@ -83,6 +84,11 @@ header >.interface{
     align-items: center;
     justify-content: space-between;
     padding: 10px 10px 10px;
+}
+
+main{
+    padding-top: 10px;
+    margin: 20px;
 }
 
 
@@ -166,6 +172,7 @@ section  {
 .container {
     width: 60%;
     margin: 0 auto;
+    
 }
 
 .container nav {
