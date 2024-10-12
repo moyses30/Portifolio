@@ -52,7 +52,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background:color #383737;
+    background:white;
     transition: background 0.2s linear;
     
    
@@ -73,13 +73,13 @@ header{
     min-width:150px ;
     padding: 20px   2%;
     margin: auto ;
-    background-color: #253fc3e5;
-    box-shadow: 0px 16px 16px black;
-    border-radius: 0px 7px 50px ;
+    background-color: rgba(0, 0, 0, 0.726);
+    box-shadow: 0px 10px 16px black; 
+    border-radius: 0px 0px 0px 0px ;
     
 
 }
-header >.interface{
+header .interface{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -106,6 +106,7 @@ header h1 {
   
 }
 
+
 header a{
     color: rgb(22, 20, 20);
     text-decoration: none;
@@ -113,7 +114,7 @@ header a{
 
 }
 header a:hover{
-    color: #18297F;
+    color: #e2e4eb;
     transform: scale(1.5);
     transition: 2.s;
 }
@@ -137,37 +138,44 @@ header nav ul li {
     display: inline-block;
     padding:0 40px ;
 }
-/* botão contato*/
+
+
+ /* botão contato
 header .btn-contato button{
     padding: 5px 36px;
-
-    font-size: 12px; /* peso da fonte */
+    font-size: 12px; /* peso da fonte 
     font-weight: 300;
+    font-family: var(--fonte2);
     margin-right: 70px;
-    background-color: rgba(219, 219, 230, 0.664);
+    background-color: rgba(216, 216, 223, 0.082);
     border: 0;
     border-radius: 30px;
-    cursor: pointer;/* cursos vira um dedo */
+    cursor: pointer;/* cursos vira um dedo 
+
+    
+    
 }
 
 header .btn-contato button :hover{
-    box-shadow: 0px 0px 2px rgb(211, 211, 226);
+    box-shadow: 0px 0px 2px rgb(38, 38, 44);
 }
-/* botão contato* ----FIM */
+
+/* botão contato* ----FIM */ 
  
 section  {
     padding: 2rem 0;
     color: white;
 }
-/*div.foto{
-    width: 10%;
-    height: 20%;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    border-radius: 50%;
+.foto img{
+    width: 200px ;
+    height: 200px;
+     border-radius: 60%;
+     border:0.5px solid rgba(0, 0, 0, 0.555)
     
-}*/
+}
+.foto{
+    text-align: center;
+}
 
 .container {
     width: 60%;
@@ -254,7 +262,7 @@ body.dark {
     height: 26px;
     width: 52px;
 
-    transform: scale(1.5);
+    transform: scale(1.0);
 
 }
 
